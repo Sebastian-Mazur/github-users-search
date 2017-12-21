@@ -1,0 +1,40 @@
+body {
+    background-color: #24292e;
+}
+
+.app-container {
+    max-width: 1000px;
+    margin: 0 auto;  
+}
+
+.app-container label {
+    color: white;
+}
+
+.users-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.users {
+    flex: 18%;
+    border: 1px solid #7c7474;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 10px;
+    text-align: center;
+}
+
+.users a {
+    text-decoration: none;
+    color: #b6acac
+}
+
+.users a:hover {
+    color: #e9dddd;
+}
+
+.users img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
